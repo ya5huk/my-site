@@ -23,19 +23,35 @@
                     <br><br>
 
                     My schedule's always full and even though it gets rough, happines comes from having a full todo list
-                    and not from the strikethrough pencil action. Happines is the list.
+                    and not from striking through a written goal with a pencil. Happines is the list.
 
                 </p>
             </div>
             <div class="space-y-2 py-5">
                 <h2>Education</h2>
                 <p>
+                    <span class="underline">Highschool</span>: 5-unit-level (Israel's way of dividing high school
+                    subject complexity)
+                    Math, Physics,
+                    English and 10-unit Computer Science.
+                    <br><br>
+                    <span class="underline">Bonus</span>: I was part of a 3-year Computer Science Program made for
+                    periphary high school teens. I
+                    learned intro to OS systems, C++, Python, Assembly and tackled with a lot self-learning long
+                    exercises.
                 </p>
             </div>
             <div class="space-y-2 py-5">
                 <h2>Sports</h2>
                 <p>
                 </p>
+            </div>
+            <div class="space-y-2 py-5">
+                <h2>Projects</h2>
+                <p>
+                    I've done a lot in the past years when it comes to creating websites, apps and different projects of
+                    that sort. You can read about it
+                    in <nuxt-link to="/professional_timeline" class="underline">here.</nuxt-link> </p>
             </div>
 
         </div>
