@@ -1,8 +1,8 @@
 <template>
     <div class="container flex flex-col">
         <div class="flex justify-between items-center">
-            <h1 class="">About</h1>
-            <nuxt-link class="back-button" to='/'>back home</nuxt-link>
+            <h1 class="">A·bout</h1>
+            <nuxt-link class="btn" to='/'>back home</nuxt-link>
         </div>
         <div class="divide-y divide-black">
             <div class="space-y-2 pb-5">
@@ -106,7 +106,7 @@
             </div>
 
         </div>
-        <nuxt-link class="back-button " to='/'>back home</nuxt-link>
+        <nuxt-link class="btn" to='/'>back home</nuxt-link>
 
     </div>
 </template>
