@@ -1,32 +1,22 @@
 <template>
     <div class="container flex flex-col">
         <div class="flex justify-between items-center">
-            <h1>Pictures</h1>
-            <nuxt-link class="back-button" to='/'>back home</nuxt-link>
+            <h1>Pic·​tures</h1>
+            <nuxt-link class="btn" to='/'>back home</nuxt-link>
         </div>
         <div class="divide-y divide-black">
-            <div v-for="is in imageStories" class="space-y-5 pb-5 first:pt-0 pt-5">
-                <h2>{{ is.title }}</h2>
-                <p>{{ is.description }}</p>
-                <img :src="is.image" :alt="is.title" />
-                <p class="text-right">{{ is.date }}</p>
-            </div>
-
+            <PictureBlock v-for="is in imageStories" :image-story="is" />
         </div>
-        <nuxt-link class="back-button" to='/'>back home</nuxt-link>
+
+        <nuxt-link class="btn" to='/'>back home</nuxt-link>
 
     </div>
 </template>
 
 <script lang="ts" setup>
-export interface ImageStories {
-    title: string;
-    description: string;
-    image: string;
-    date: string;
-}
+import PictureBlock, { type ImageStory } from '~/components/PictureBlock.vue';
 
-const imageStories: ImageStories[] = [
+const imageStories: ImageStory[] = [
     {
         title: 'Sideeying on the background of the Kineret.',
         description: `My friend Oded & I walked a track from the Kinneret (the village) to Nazareth while visiting the top of
@@ -87,9 +77,3 @@ const imageStories: ImageStories[] = [
 ]
 
 </script>
-
-<style lang="postcss" scoped>
-h2 {
-    @apply text-3xl;
-}
-</style>
