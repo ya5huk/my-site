@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -6,10 +7,17 @@
 
 :root {
   --bgcolor: #f0deaf;
+  --bgcolor-light:rgb(243, 230, 196);
 }
 
 .font-eb-garamond {
   font-family: "EB Garamond", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.font-rubik {
+  font-family: "Rubik", serif;
   font-optical-sizing: auto;
   font-style: normal;
 }
@@ -26,15 +34,29 @@ ul {
 }
 
 p {
+    @apply text-lg md:text-2xl;
+}
+
+pre {
+    @apply text-lg p-4 my-5 rounded-xl overflow-x-auto ;
+    background-color: var(--bgcolor-light);
+}
+
+code {
     @apply text-lg;
+    background-color: var(--bgcolor-light);
 }
 
 h1 {
     @apply text-5xl;
 }
 
+h2 {
+    @apply text-4xl mt-5;
+}
+
 h3 {
-    @apply text-2xl;
+    @apply text-3xl;
 }
 
 h4 {
@@ -42,7 +64,7 @@ h4 {
 }
 
 .container {
-    @apply max-w-3xl mx-auto md:mt-20  p-5 md:p-10 space-y-5;
+    @apply max-w-3xl mx-auto md:mt-10  p-5 md:p-10 space-y-5;
 }
 
 .btn {
