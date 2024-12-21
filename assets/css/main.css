@@ -48,3 +48,7 @@ h4 {
 .btn {
     @apply p-2 text-center border border-black hover:bg-black hover:cursor-pointer hover:text-bgcolor transition-all duration-300 ease-in-out ;
 } 
+
+.btn-active {
+    @apply bg-black text-bgcolor transition-all duration-300 ease-in-out;
+}
