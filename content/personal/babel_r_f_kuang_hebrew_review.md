@@ -1,5 +1,7 @@
 ---
 title: 'בבל: דעה שטחית על קולוניאליזם?'
+image: ''
+lang: 'he_IL'
 ---
 <div dir="rtl">
 

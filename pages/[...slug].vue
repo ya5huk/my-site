@@ -4,12 +4,16 @@
             <template v-slot="{ doc }">
 
                 <Head>
+                    <Meta name="og:site_name" content="Ilan's Online Attic" />
+                    
                     <Meta name="og:title" :content="doc.title" />
                     <Meta name="og:description" :content="doc.description" />
-                    <Meta name="og:image" content="" />
-                    <Meta name="og:url" content="" />
+                    <Meta name="og:image" :content="doc.image" />
+                    <Meta name="og:url" :content="fullUrl" />
+                    <Meta name="og:locale" :content="doc.lang" />
+                    
                     <Meta name="og:type" content="article" />
-                    <Meta name="og:site_name" content="" />
+                    
                     <Meta name="twitter:card" content="summary_large_image" />
                     <Meta name="twitter:title" :content="doc.title" />
                     <Meta name="twitter:description" :content="doc.description" />
@@ -32,4 +36,9 @@
 
 <script setup>
 const { data } = await useAsyncData('hello', () => queryContent('/hello').findOne())
+
+// get current url using vue router
+const currentUrl = useRoute().fullPath
+const fullUrl = 'https://ilansonlineattic.com' + currentUrl
+
 </script>
