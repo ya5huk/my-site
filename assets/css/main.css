@@ -43,7 +43,7 @@ pre {
 }
 
 code {
-    @apply text-lg;
+    @apply text-base md:text-lg;
     background-color: var(--bgcolor-light);
 }
 

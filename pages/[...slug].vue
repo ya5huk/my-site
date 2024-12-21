@@ -74,6 +74,10 @@ main:deep(p) {
 main:deep(ul) {
     @apply space-y-5;
 }
+
+main:deep(ol) {
+    @apply list-decimal text-lg px-4 md:text-2xl space-y-5;
+}
 </style>
 
 <script setup>
