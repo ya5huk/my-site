@@ -1,11 +1,11 @@
 <template>
-    <div class="head-container">
+    <div class="container">
         <h1>
-            ilan's online attic.
+            evreything's ilan.
         </h1>
         <ul>
             <li>
-                <nuxt-link to="/pictureme">pictures!</nuxt-link>
+                <nuxt-link to="/pictures">pictures!</nuxt-link>
             </li>
             <li>
                 <nuxt-link to="/about">who am i?</nuxt-link>

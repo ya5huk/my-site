@@ -1,6 +1,9 @@
 <template>
     <div class="container flex flex-col">
-        <nuxt-link class="back-button self-end" to='/'>back home</nuxt-link>
+        <div class="flex justify-between items-center">
+            <h1>Pictures</h1>
+            <nuxt-link class="back-button" to='/'>back home</nuxt-link>
+        </div>
         <div class="divide-y divide-black">
             <div v-for="is in imageStories" class="space-y-5 pb-5 first:pt-0 pt-5">
                 <h2>{{ is.title }}</h2>
@@ -10,7 +13,7 @@
             </div>
 
         </div>
-        <nuxt-link class="back-button self-end" to='/'>back home</nuxt-link>
+        <nuxt-link class="back-button" to='/'>back home</nuxt-link>
 
     </div>
 </template>
@@ -59,7 +62,7 @@ const imageStories: ImageStories[] = [
     },
     {
         title: "The last night before October 7th, 2023.",
-        description: `This picture wan't intended to receive the amount of value it has. On October 7th, 2023 my family and I were in London. We woke up to news which just didn't sound real. Our flight home was scheduled to the night of October 7th and was cancelled on the morning of that day. Seeing the news, everyone just wanted to get back home. We live in the south and so our family and friends were in direct danger. We returned home on October 9th and a year full of extremely hard work and rebuild began. `,
+        description: `This picture wan't intended to receive the amount of value it has. On October 7th, 2023 my family and I were in London. We woke up to news which just didn't sound real. Our flight home was scheduled to the night of October 7th and was cancelled on the morning of that day. Seeing the news, everyone just wanted to get back home. We live in the south and so our family and friends were in real danger. We returned home on October 9th and hundreds of days full of extremely hard work and rebuild began. `,
         image: '/me/london-october-6th.jpg',
         date: 'October 6th, 2023'
     },
@@ -74,6 +77,12 @@ const imageStories: ImageStories[] = [
         description: `My first project, now hosted on visuathlete.com, was picturing and visualizing the results of all Israel's track and field athletes. Previous to this site, all you could see in Israel's National Athletics site was plain results table. I wanted to give a way to athletes to analyze and look at their results in an more organized, beautiful way. I actually achieved that goal and now it is a huge site with lots of content and more than 1400 athlete profiles.`,
         image: '/me/visuathlete-beggining.jpg',
         date: 'Feb 1st, 2023'
+    },
+    {
+        title: 'ITS THE PROM BABYYY!',
+        description: `I was not a school fan. Starting from around 11th grade I felt like it was way too potential limiting and that I could learn and do so much more than just sit most of my day. I was happy school ended.`,
+        image: '/me/prom.webp',
+        date: 'July 6th, 2022'
     }
 ]
 
