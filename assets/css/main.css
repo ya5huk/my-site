@@ -37,10 +37,14 @@ h3 {
     @apply text-2xl;
 }
 
+h4 {
+    @apply text-xl;
+}
+
 .container {
-    @apply max-w-3xl mx-auto md:mt-20 md:mt-10 p-10 space-y-5;
+    @apply max-w-3xl mx-auto md:mt-20  p-5 md:p-10 space-y-5;
 }
 
 .btn {
-    @apply p-2 text-center border border-black hover:bg-black hover:text-bgcolor transition-all duration-300 ease-in-out ;
-}
+    @apply p-2 text-center border border-black hover:bg-black hover:cursor-pointer hover:text-bgcolor transition-all duration-300 ease-in-out ;
+} 
