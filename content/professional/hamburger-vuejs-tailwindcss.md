@@ -2,7 +2,7 @@
 title: 'Creating a cute hamburger menu with vuejs & tailwindcss'
 image: '/blog-images/hamburger-tailwindcss.webp'
 lang: 'en_US'
-date: '23/03/2024'
+date: '03/23/2024'
 ---
 Hey! This is another short article that I thought I’ll publish because I know that if I came across an article similar to this one, I would save some important development time.
 

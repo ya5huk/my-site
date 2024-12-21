@@ -51,8 +51,6 @@ const allBlogs = ref<BlogData[]>([])
 const { data: persBlogs } = await useAsyncData(() => queryContent('personal').find())
 const { data: proBlogs } = await useAsyncData(() => queryContent('professional').find())
 
-console.log(persBlogs.value)
-
 if (persBlogs.value && proBlogs.value) {
 
     const personalBlogs: BlogData[] = persBlogs.value.map(b => {
@@ -80,6 +78,28 @@ if (persBlogs.value && proBlogs.value) {
     })
 
     allBlogs.value = [...personalBlogs, ...professionalBlogs]
+
+    // sort allBlogs by date where date field is dd/mm/yyyy if lang is he_IL and mm/dd/yyyy if lang is en_US
+    allBlogs.value = allBlogs.value.sort((a, b) => {
+        let aDay, aMonth, aYear, bDay, bMonth, bYear
+
+        if (a.lang == 'he_IL') {
+            [aDay, aMonth, aYear] = a.date.split('/')
+        } else {
+            [aMonth, aDay, aYear] = a.date.split('/')
+        }
+        if (b.lang == 'he_IL') {
+            [bDay, bMonth, bYear] = b.date.split('/')
+        } else {
+            [bMonth, bDay, bYear] = b.date.split('/')
+        }
+
+        const aDate = new Date(`${aYear}-${aMonth}-${aDay}`)
+        const bDate = new Date(`${bYear}-${bMonth}-${bDay}`)
+
+        return bDate.getTime() - aDate.getTime()
+    })
+
 }
 
 

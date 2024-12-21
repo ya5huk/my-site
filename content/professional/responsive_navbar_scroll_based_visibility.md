@@ -2,7 +2,7 @@
 title: 'Creating a Responsive Navbar with Scroll-Based Visibility (Inspired by Instagram, X, etc.) using Vue.js'
 image: '/blog-images/navbar-examples.webp'
 lang: 'en_US'
-date: '23/03/2024'
+date: '03/23/2024'
 ---
 
 Don’t settle on an absolute-positioned `<nav>` element just yet. Creating a responsive navbar is easier than you think. In short, all you have to do is:

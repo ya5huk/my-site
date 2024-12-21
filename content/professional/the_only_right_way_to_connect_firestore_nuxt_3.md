@@ -2,7 +2,7 @@
 title: 'The only right way to connect Google’s Firestore to Nuxt 3'
 image: '/blog-images/firestore.png'
 lang: 'en_US'
-date: '14/11/2024'
+date: '11/14/2024'
 ---
 
 I’ve tried all that’s on the web and wasted so much time on this that I just felt the duty to write this short article. To connect Nuxt 3, a vuejs framework and firestore, google’s cloud database, here is what you need to do.

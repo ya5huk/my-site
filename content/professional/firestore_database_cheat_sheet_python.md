@@ -2,7 +2,7 @@
 title: 'Firestore Database: Cheat Sheet (Python)'
 image: '/blog-images/firestore-cheatsheet.webp'
 lang: 'en_US'
-date: '30/06/2024'
+date: '06/30/2024'
 ---
 The quickest way to get started with Google’s Firestore Database using Python.
 
