@@ -115,6 +115,25 @@
 const nowYear = new Date().getFullYear();
 const myAge = nowYear - 2004;
 
+const pageDesc = "About me."
+const pageTitle = "Ilan Yashuk: About"
+const pageImage = '/site-icon.png'
+const pageUrl = 'https://ilansonlineattic.com/about'
+
+useSeoMeta({
+    title: pageTitle,
+    ogTitle: pageTitle,
+    description: pageDesc,
+    ogDescription: pageDesc,
+    ogImage: pageImage,
+    ogUrl: pageUrl,
+
+    twitterTitle: pageTitle,
+    twitterDescription: pageDesc,
+    twitterCard: 'summary_large_image',
+    twitterImage: pageImage
+})
+
 </script>
 
 <style lang="postcss" scoped>

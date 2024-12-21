@@ -35,6 +35,25 @@
 </template>
 
 <script lang="ts" setup>
+
+const pageDesc = "Noticable things that I've done over the years!"
+const pageTitle = "Ilan Yashuk: Porfolio"
+const pageImage = '/site-icon.png'
+
+useSeoMeta({
+    title: pageTitle,
+    ogTitle: pageTitle,
+    description: pageDesc,
+    ogDescription: pageDesc,
+    ogImage: pageImage,
+    ogUrl: 'https://ilansonlineattic.com/portfolio',
+
+    twitterTitle: pageTitle,
+    twitterDescription: pageDesc,
+    twitterCard: 'summary_large_image',
+    twitterImage: pageImage
+})
+
 export interface ProductSection {
     title: string;
     description: string;

@@ -32,6 +32,25 @@
 
 <script lang="ts" setup>
 
+const pageDesc = "Everything I've written in one place"
+const pageTitle = "Ilan Yashuk: Blog"
+const pageImage = '/site-icon.png'
+const pageUrl = 'https://ilansonlineattic.com/blog'
+
+useSeoMeta({
+    title: pageTitle,
+    ogTitle: pageTitle,
+    description: pageDesc,
+    ogDescription: pageDesc,
+    ogImage: pageImage,
+    ogUrl: pageUrl,
+
+    twitterTitle: pageTitle,
+    twitterDescription: pageDesc,
+    twitterCard: 'summary_large_image',
+    twitterImage: pageImage
+})
+
 export interface BlogData {
     path: string
     title: string

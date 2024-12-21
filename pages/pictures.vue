@@ -16,6 +16,25 @@
 <script lang="ts" setup>
 import PictureBlock, { type ImageStory } from '~/components/PictureBlock.vue';
 
+const pageDesc = "This must be the most vibe page on this website. Here are pictures of me. "
+const pageTitle = "Ilan Yashuk: Pictures"
+const pageImage = '/site-icon.png'
+const pageUrl = 'https://ilansonlineattic.com/pictures'
+
+useSeoMeta({
+    title: pageTitle,
+    ogTitle: pageTitle,
+    description: pageDesc,
+    ogDescription: pageDesc,
+    ogImage: pageImage,
+    ogUrl: pageUrl,
+
+    twitterTitle: pageTitle,
+    twitterDescription: pageDesc,
+    twitterCard: 'summary_large_image',
+    twitterImage: pageImage
+})
+
 const imageStories: ImageStory[] = [
     {
         title: 'Sideeying on the background of the Kineret.',

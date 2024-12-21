@@ -40,4 +40,22 @@
 
 const iconSizePx = '20px'
 
+const pageDesc = "I loooove to talk so hit me up!"
+const pageTitle = "Ilan Yashuk: Contact"
+const pageImage = '/site-icon.png'
+
+useSeoMeta({
+    title: pageTitle,
+    ogTitle: pageTitle,
+    description: pageDesc,
+    ogDescription: pageDesc,
+    ogImage: pageImage,
+    ogUrl: 'https://ilansonlineattic.com/contact',
+
+    twitterTitle: pageTitle,
+    twitterDescription: pageDesc,
+    twitterCard: 'summary_large_image',
+    twitterImage: pageImage
+})
+
 </script>
