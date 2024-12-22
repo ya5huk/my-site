@@ -88,6 +88,12 @@ const imageStories: ImageStory[] = [
         date: 'Feb 1st, 2023'
     },
     {
+        title: 'My best ever track result points wise',
+        description: `I ran the 60mH (99cm) in 8.28s. This was a HUGE run for me. That was the first time I ran something significantly fast after my injury. The face you see there is me in total shock. Winning the heat with a time like that was an amazing experience.`,
+        image: '/me/FB_IMG_1674168968786_Original.jpeg',
+        date: 'Jan 20th, 2023'
+    },
+    {
         title: 'ITS THE PROM BABYYY!',
         description: `I was not a school fan. Starting from around 11th grade I felt like it was way too potential limiting and that I could learn and do so much more than just sit most of my day. I was happy school ended.`,
         image: '/me/prom.webp',
