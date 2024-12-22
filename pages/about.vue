@@ -7,7 +7,7 @@
         <div class="divide-y divide-black">
             <div class="space-y-2 pb-5">
                 <h2>Background</h2>
-                <p>Je M'appelle Ilan Yashuk, {{ myAge }}. I don't know French. I was born in South Israel, Beersheba.
+                <p>My name's Ilan Yashuk, {{ myAge }}. I was born in South Israel, Beersheba.
                     The languages I do speak and write are: Hebrew, English and Russian.
                     <br><br>
                     I
@@ -59,11 +59,10 @@
                     teeth twice a day.
                     <br><br>
                     Throughout the years I went through swimming, basketball, some soccer, tennis and finally: track &
-                    field. My brother at the time competed at the 20th Maccabiah games and I thought to myself: "why not
+                    field. In 2017, my brother competed at the 20th Maccabiah games and I thought to myself: "why not
                     me?". So I joined track and field.
                     <br><br>
-                    I trained A LOT for the next 7 years. Sometimes close to 20 hours a week. I had some success, got
-                    injured a little and then had some downs. In 2019, when I was 14, I broke the national record at the
+                    I trained A LOT for the next 7 years. Sometimes close to 20 hours a week. I had some ups and downs. In 2019, when I was 14, I broke the national record at the
                     100mH
                     (84cm) 5 times though none of them counted as the wind was blowing too fast (sometimes only 0.1 m/s
                     above the allowed 2.0 m/s speed). In March of '20 I got injured and didn't fully recover until my
@@ -76,7 +75,7 @@
                     (6.80w) finishing 7th.
                     <br><br>
                     To summarize, I gave sports my all while I was in middle to high school. I was a good student and
-                    well socialized so balancing everything was my biggest life lesson. I also gave to Israel's track &
+                    well socialized so balancing everything was my biggest life lesson. I also gave Israel's track &
                     field the site <nuxt-link class="underline"
                         to="https://visuathlete.com">visuathlete.com</nuxt-link>.
 
