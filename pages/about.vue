@@ -8,7 +8,7 @@
             <div class="space-y-2 pb-5">
                 <h2>Background</h2>
                 <p>My name's Ilan Yashuk, {{ myAge }}. I was born in South Israel, Beersheba.
-                    The languages I do speak and write are: Hebrew, English and Russian.
+                    I speak and write in: Hebrew, English and Russian.
                     <br><br>
                     I
                     always loved to <span class="underline">create</span>. I
