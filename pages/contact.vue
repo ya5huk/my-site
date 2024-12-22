@@ -4,8 +4,7 @@
             <h1 class="">Con·tact</h1>
             <nuxt-link class="btn" to='/'>back home</nuxt-link>
         </div>
-        <p>Tbh I'm not anti social media like lot of people are. I think if you're busy you won't be on it but if you
-            have spare time... Why not?
+        <p>Tbh I'm not anti social media like lots of people are. I like how it allows one to keep being connected to his friends without much effort (f.e. Instagram Stories)
         </p>
         <div class="flex flex-wrap gap-4">
 
