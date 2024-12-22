@@ -41,13 +41,13 @@ const imageStories: ImageStory[] = [
         description: `My friend Oded & I walked a track from the Kinneret (the village) to Nazareth while visiting the top of
             the mountaings: Mount Tavor, Mount Dvora and Mount Yona. I, having a non-optimal bag and Oded, walking
             with soaking, torn shoes walked around 22 kilometers a day. About altitude, the first day was: 500m up
-            and 300m down. The second: 500m up, 300m down, 120m up, 60m down, 280m up, 120m down, 170m up. `,
+            and 300m down. The second, in total: 1km up, 480m down. `,
         image: '/me/kineret-bg.jpg',
         date: 'Dec 16th, 2024'
     },
     {
         title: 'Homeboys.',
-        description: `Growing up in the southern Beersheba we struggled to find a variaty of experiences on Friday night. In rare times the squad gathered up. At even rarer times there were pictures to look back to. This is one such moment. Shot on iphone with WEST app.`,
+        description: `Growing up in Beersheba we struggled to find a variaty of experiences on Friday night. At rare times the squad gathered up. At even rarer times there were pictures to look back to. This is one such moment. Shot on iphone with WEST app.`,
         image: '/me/hashnaz-homeboys.jpg',
         date: 'Nov 30th, 2024'
     },
