@@ -53,13 +53,13 @@ const imageStories: ImageStory[] = [
     },
     {
         title: 'Last day in my teens.',
-        description: `The first time I seriously went out to the nature. Ron & I went on a hot september day to explore the desert located a 50-minute-ride from us. The route was circular and started at Midreshet Ben-Gurion. We went through, Hod Akev, Ein Akev and Ma'ale Divshon. It peaked at 37°C that day (98.6°F). Btw the I didn't intentioally pointed at anything, but I did return to the place I was pointing at, Mount Tzror, 3 months later, on a cloudy short December day.`,
+        description: `The first time I seriously went out to the nature. Ron & I went on a hot September day to explore the desert located a 50-minute-ride from us. The route was circular and started at Midreshet Ben-Gurion. We went through, Hod Akev, Ein Akev and Ma'ale Divshon. It peaked at 37°C that day (98.6°F). Btw I didn't intentionally point at anything, but I did return to the place I was pointing at, Mount Tzror, 3 months later, on a cloudy short December day.`,
         image: '/me/hod-akev-first.jpg',
         date: 'Sep 13th, 2024'
     },
     {
         title: 'Volunteering in a farm in the deep, dry desert.',
-        description: `An interesting experience. I went to volunteer at Kmehin, a farmers village near the Egyptian border, at the expensive cost of army vacation days. For four days, we woke up while the sun was sleeping and worked in a Cherry tomato farm while it wasn't too hot. It was amazing living on the country side with such modest people. Seeing the beautiful co-existence which enabled the hard job of farming in a tough area like Kmehin gave me a needed hope in tough times like those days.`,
+        description: `An interesting experience. I went to volunteer at Kmehin, a farmers village near the Egyptian border, at the expensive cost of army vacation days. For four days, we woke up while the sun was sleeping and worked in a cherry tomato farm while it wasn't too hot. It was amazing living on the country side with such modest people. Seeing the beautiful co-existence which enabled the hard job of farming in a tough area like Kmehin gave me needed hope.`,
         image: '/me/Kmehin-Volunteering.jpg',
         date: 'Aug 15th, 2024'
     },
@@ -83,7 +83,7 @@ const imageStories: ImageStory[] = [
     },
     {
         title: 'The start of my first big project - Visuathlete.',
-        description: `My first project, now hosted on visuathlete.com, was picturing and visualizing the results of all Israel's track and field athletes. Previous to this site, all you could see in Israel's National Athletics site was plain results table. I wanted to give a way to athletes to analyze and look at their results in an more organized, beautiful way. I actually achieved that goal and now it is a huge site with lots of content and more than 1400 athlete profiles.`,
+        description: `My first project, now hosted on visuathlete.com, was picturing and visualizing the results of all Israel's track and field athletes. Previous to this site, all you could see in Israel's National Athletics site was plain results table. I wanted to give a way to athletes to analyze and look at their results in a more organized, beautiful way. I actually achieved that goal and now it is a huge site with lots of content and more than 1400 athlete profiles.`,
         image: '/me/visuathlete-beggining.jpg',
         date: 'Feb 1st, 2023'
     },
