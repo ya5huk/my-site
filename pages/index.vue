@@ -4,20 +4,20 @@
             everything that's ilan.
         </h1>
         <ul>
-            <li class="text-xl">
+            <li>
                 <nuxt-link to="/portfolio">portfolio.</nuxt-link>
             </li>
-            <li class="text-xl">
+            <li>
                 <nuxt-link to="/about">who am i?</nuxt-link>
             </li>
-            <li class="text-xl">
+            <li>
                 <nuxt-link to="/pictures">pictures!</nuxt-link>
             </li>
-            <li class="text-xl">
+            <li>
                 <nuxt-link to="/blog">yapping.</nuxt-link>
             </li>
-            <li class="text-xl">
-                <nuxt-link to="/contact">connect.</nuxt-link>
+            <li>
+                <nuxt-link to="/contact">let's connect.</nuxt-link>
             </li>
         </ul>
     </div>
