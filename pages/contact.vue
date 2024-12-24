@@ -1,11 +1,21 @@
 <template>
     <div class="container">
         <div class="flex justify-between items-center">
-            <h1 class="">Con·tact</h1>
+            <h1 class="">Ser·​vices & Con·tact.</h1>
             <nuxt-link class="btn" to='/'>back home</nuxt-link>
         </div>
-        <p>Tbh I'm not anti social media like lots of people are. I like how it allows one to keep being connected to his friends without much effort (f.e. Instagram Stories)
+        <p>I am good at and will happily help with:</p>
+        <ul>
+            <li>Web development / Fullstack</li>
+            <li>Javascript, HTML, CSS</li>
+            <li>Python / Building an API</li>
+            <li>Vue & Other js frameworks</li>
+        </ul>
+        <p>
+            I can greatly fit in a team or solo develop you a site or SaaS. I don't use services like Wordpress, Squarespace, Wix, Webflow, etc. 
+            I'm more of an app guy than a designer and so I like to deliver a custom-made product.
         </p>
+        <p>I'm open minded, let's talk! I will 100% return your message in these medias:</p>
         <div class="flex flex-wrap gap-4">
 
             <nuxt-link to="https://www.instagram.com/ilan_yashuk/" class="btn w-36 flex items-center gap-2 rounded-lg ">
