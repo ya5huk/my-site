@@ -4,19 +4,19 @@
             everything that's ilan.
         </h1>
         <ul>
-            <li>
+            <li class="text-xl">
                 <nuxt-link to="/portfolio">portfolio.</nuxt-link>
             </li>
-            <li>
+            <li class="text-xl">
                 <nuxt-link to="/about">who am i?</nuxt-link>
             </li>
-            <li>
+            <li class="text-xl">
                 <nuxt-link to="/pictures">pictures!</nuxt-link>
             </li>
-            <li>
+            <li class="text-xl">
                 <nuxt-link to="/blog">yapping.</nuxt-link>
             </li>
-            <li>
+            <li class="text-xl">
                 <nuxt-link to="/contact">connect.</nuxt-link>
             </li>
         </ul>
