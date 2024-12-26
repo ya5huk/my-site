@@ -20,7 +20,7 @@
                         <p class="">
                             <span class="underline">Tools used</span>: {{ p.toolsUsed }}
                         </p>
-                        <nuxt-link class="btn w-12" :to="p.directo">Visit</nuxt-link>
+                        <nuxt-link class="btn w-20" :to="p.directo">Visit</nuxt-link>
                     </div>
                     <img class="mt-2 md:mt-0 w-full max-w-xs md:self-start rounded-2xl border border-black shadow shadow-gray-400"
                         :src="p.image" :alt="p.title">
