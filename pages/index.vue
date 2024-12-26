@@ -5,19 +5,35 @@
         </h1>
         <ul>
             <li>
-                <nuxt-link to="/portfolio">portfolio.</nuxt-link>
+                <h3>
+
+                    <nuxt-link to="/portfolio">portfolio.</nuxt-link>
+                </h3>
             </li>
             <li>
-                <nuxt-link to="/about">who am i?</nuxt-link>
+
+                <h3>
+
+                    <nuxt-link to="/about">about me.</nuxt-link>
+                </h3>
             </li>
             <li>
-                <nuxt-link to="/pictures">pictures!</nuxt-link>
+                <h3>
+
+                    <nuxt-link to="/pictures">pictures!</nuxt-link>
+                </h3>
             </li>
             <li>
-                <nuxt-link to="/blog">yapping.</nuxt-link>
+                <h3>
+
+                    <nuxt-link to="/blog">yapping.</nuxt-link>
+                </h3>
             </li>
             <li>
-                <nuxt-link to="/contact">let's connect.</nuxt-link>
+                <h3>
+
+                    <nuxt-link to="/contact">let's connect.</nuxt-link>
+                </h3>
             </li>
         </ul>
     </div>

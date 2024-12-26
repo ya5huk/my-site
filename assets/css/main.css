@@ -37,6 +37,10 @@ p {
     @apply text-lg md:text-2xl;
 }
 
+small {
+    @apply text-base md:text-lg;
+}
+
 li {
    @apply text-lg md:text-2xl;
 }
@@ -56,7 +60,7 @@ h1 {
 }
 
 h2 {
-    @apply text-3xl mt-5;
+    @apply text-3xl;
 }
 
 h3 {
@@ -68,7 +72,7 @@ h4 {
 }
 
 .container {
-    @apply max-w-3xl mx-auto md:mt-10  p-5 md:p-10 space-y-5;
+    @apply max-w-3xl mx-auto md:mt-10 p-5 md:p-10 space-y-3;
 }
 
 .btn {

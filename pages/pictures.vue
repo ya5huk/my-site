@@ -1,9 +1,7 @@
 <template>
     <div class="container flex flex-col">
-        <div class="flex justify-between items-center">
-            <h1>Pic·​tures</h1>
-            <nuxt-link class="btn" to='/'>back home</nuxt-link>
-        </div>
+        <Headline page-title="Pic·​tures" />
+
         <div class="divide-y divide-black">
             <PictureBlock v-for="is in imageStories" :image-story="is" />
         </div>

@@ -1,10 +1,6 @@
 <template>
     <div class="container">
-
-        <div class="flex justify-between items-center">
-            <h1 class="">Web·log</h1>
-            <nuxt-link class="btn" to='/'>back home</nuxt-link>
-        </div>
+        <Headline page-title="Web·log" />
 
         <div class="flex filterdiv">
             <button class="btn" :class="currentlyFiltered == 'personal' ? 'btn-active' : ''"
@@ -16,14 +12,15 @@
 
         <div class="flex flex-col divide-y divide-black">
             <div dir="auto" @click="navigateTo(blog.path)" :class="blog.lang == 'he_IL' ? 'font-rubik' : ''"
-                v-for=" blog in allBlogs.filter(b => b.category == currentlyFiltered)"
-                class="space-y-2 py-5 hover:bg-[var(--bgcolor-light)] hover:cursor-pointer px-2">
-                <h3 class="underline decoration-2 underline-offset-4 ">{{ blog.title }}</h3>
+                v-for="blog in allBlogs.filter(b => b.category == currentlyFiltered)"
+                class="flex flex-col gap-4 py-5 hover:bg-[var(--bgcolor-light)] hover:cursor-pointer px-2">
+                <h2 class="underline decoration-2 underline-offset-4 ">{{ blog.title }}</h2>
                 <div class="flex flex-col-reverse md:flex-row gap-2 md:gap-10">
                     <p>{{ blog.description }}</p>
                     <img :src="blog.image" :alt="blog.title"
                         class="w-full md:max-w-48 md:max-h-48 self-start shadow shadow-black border border-black" />
                 </div>
+                <small>{{ pretifyDate(blog.date, blog.lang) }}</small>
             </div>
         </div>
     </div>

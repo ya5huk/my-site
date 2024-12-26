@@ -28,8 +28,7 @@
 
                         <template v-if="doc.lang == 'en_US'">
                             <div class="flex justify-between items-center">
-                                <small class="text-lg">Ilan Yashuk | {{ doc.date
-                                    }}</small>
+                                <small class="text-lg">Ilan Yashuk | {{ pretifyDate(doc.date, doc.lang) }}</small>
                                 <nuxt-link class="btn" to="/">Back home</nuxt-link>
                             </div>
                         </template>
@@ -38,7 +37,7 @@
                             <div class="flex justify-between items-center">
                                 <nuxt-link class="btn" to="/">חזרה הביתה</nuxt-link>
                                 <small class="text-lg text-right">
-                                    אילן ישוק | {{ doc.date }}
+                                    אילן ישוק | {{ pretifyDate(doc.date, doc.lang) }}
                                 </small>
                             </div>
                         </template>
@@ -46,6 +45,8 @@
                     <img class="mx-auto w-full shadow shadow-gray-800 border border-black" :src="doc.image"
                         :alt="doc.title">
                     <ContentRenderer class="space-y-5" dir="auto" :value="doc" />
+                    <button class="btn w-full" @click="scrollToTop">
+                        {{ doc.lang === 'en_US' ? 'Back to the top' : 'חזרה למעלה' }}</button>
                 </article>
             </template>
             <template #empty>
@@ -80,9 +81,11 @@ main:deep(ol) {
 }
 </style>
 
-<script setup>
+<script lang="ts" setup>
 // get current url using vue router
 const currentUrl = useRoute().fullPath
 const fullUrl = 'https://ilansonlineattic.com' + currentUrl
+
+
 
 </script>

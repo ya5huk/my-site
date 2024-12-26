@@ -2,7 +2,7 @@
 title: 'Walking in Israel’s Negev Desert: Hod Akev, Ein Akev & Divshon Rise'
 image: '/blog-images/negev-trip-sep13.webp'
 lang: 'en_US'
-date: '20/09/2024'
+date: '09/20/2024'
 ---
 
 [If you don’t want to read the whole thing, and want just the pictures, you can see this instagram post.](https://www.instagram.com/p/C_3WIGyIXxA/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA%3D%3D)

@@ -5,8 +5,6 @@ lang: 'en_US'
 date: '08/21/2023'
 ---
 
-Ok, straight to business.
-
 It takes two steps to export a PostgreSQL database, first export a sql-script and then restore the data from it. The following tutorial works both on a local database and an external one, as long as they allow outside requests.
 
 To export an sql-script of your database we'll use pg_dump. If you downloaded Postgresql from the official site then it'll be located inside the downloaded folder: /bin/pg_dump.exe. Same goes for the next command

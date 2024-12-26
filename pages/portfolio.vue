@@ -1,9 +1,7 @@
 <template>
     <div class="container">
-        <div class="flex justify-between items-center">
-            <h1>Port·fo·li·o</h1>
-            <nuxt-link class="btn" to='/'>back home</nuxt-link>
-        </div>
+        <Headline page-title="Port·fo·li·o" />
+
         <ol class="relative border-s border-black">
             <li class="mb-10 ms-4" v-for="p in products">
                 <div class="absolute w-3 h-3 rounded-full mt-1.5 -start-1.5 bg-black">

@@ -1,9 +1,6 @@
 <template>
     <div class="container flex flex-col">
-        <div class="flex justify-between items-center">
-            <h1 class="">A·bout</h1>
-            <nuxt-link class="btn" to='/'>back home</nuxt-link>
-        </div>
+        <Headline page-title="A·bout" />
         <div class="divide-y divide-black">
             <div class="space-y-2 pb-5">
                 <h2>Background</h2>
@@ -62,7 +59,8 @@
                     field. In 2017, my brother competed at the 20th Maccabiah games and I thought to myself: "why not
                     me?". So I joined track and field.
                     <br><br>
-                    I trained A LOT for the next 7 years. Sometimes close to 20 hours a week. I had some ups and downs. In 2019, when I was 14, I broke the national record at the
+                    I trained A LOT for the next 7 years. Sometimes close to 20 hours a week. I had some ups and downs.
+                    In 2019, when I was 14, I broke the national record at the
                     100mH
                     (84cm) 5 times though none of them counted as the wind was blowing too fast (sometimes only 0.1 m/s
                     above the allowed 2.0 m/s speed). In March of '20 I got injured and didn't fully recover until my
@@ -111,6 +109,8 @@
 </template>
 
 <script lang="ts" setup>
+import Headline from '~/components/Headline.vue';
+
 const nowYear = new Date().getFullYear();
 const myAge = nowYear - 2004;
 

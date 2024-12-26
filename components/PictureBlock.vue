@@ -1,6 +1,6 @@
 <template>
 
-    <div class="space-y-5 pb-5 first:pt-0 pt-5">
+    <div class="space-y-2 pb-5 first:pt-0 pt-5">
         <h2>{{ imageStory.title }}</h2>
         <p>{{ imageStory.description }}</p>
         <img :src="imageStory.image" :alt="imageStory.title" />
