@@ -18,6 +18,10 @@ export default defineNuxtConfig({
     }
   },
 
+  gtag: {
+    id: 'G-FGMJBRD91Y'
+  },
+
   app: {
     head: {
       // icon
@@ -25,5 +29,5 @@ export default defineNuxtConfig({
     },
   },
 
-  modules: ['@nuxt/content'],
+  modules: ['@nuxt/content', 'nuxt-gtag'],
 })
