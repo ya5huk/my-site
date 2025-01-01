@@ -77,7 +77,7 @@ main:deep(ul) {
 }
 
 main:deep(ol) {
-    @apply list-decimal text-lg px-4 md:text-2xl space-y-5;
+    @apply list-decimal text-lg px-4 md:text-2xl space-y-5 px-6;
 }
 </style>
 

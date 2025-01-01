@@ -64,7 +64,7 @@ h2 {
 }
 
 h3 {
-    @apply text-2xl;
+    @apply md:font-bold md:underline text-2xl;
 }
 
 h4 {
