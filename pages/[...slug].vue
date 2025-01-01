@@ -73,7 +73,7 @@ main:deep(p) {
 }
 
 main:deep(ul) {
-    @apply space-y-5;
+    @apply space-y-5 px-6;
 }
 
 main:deep(ol) {

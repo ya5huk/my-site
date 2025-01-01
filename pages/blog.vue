@@ -15,10 +15,10 @@
                 v-for="blog in allBlogs.filter(b => b.category == currentlyFiltered)"
                 class="flex flex-col gap-4 py-5 hover:bg-[var(--bgcolor-light)] hover:cursor-pointer px-2">
                 <h2 class="underline decoration-2 underline-offset-4 ">{{ blog.title }}</h2>
-                <div class="flex flex-col-reverse md:flex-row gap-2 md:gap-10">
+                <div class="flex flex-col-reverse md:flex-row gap-2 md:gap-5">
                     <p>{{ blog.description }}</p>
                     <img :src="blog.image" :alt="blog.title"
-                        class="w-full md:max-w-48 md:max-h-48 self-start shadow shadow-black border border-black" />
+                        class="w-full md:max-w-48 self-start shadow shadow-black border border-black" />
                 </div>
                 <small>{{ pretifyDate(blog.date, blog.lang) }}</small>
             </div>
