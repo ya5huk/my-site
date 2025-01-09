@@ -46,8 +46,6 @@
                         :alt="doc.title">
                     <ContentRenderer class="space-y-5" dir="auto" :value="doc" />
 
-                    <SubscribeToNewsletter v-if="doc.lang == 'he_IL'" :lang="doc.lang" />
-
                     <button class="btn w-full" @click="scrollToTop">
                         {{ doc.lang === 'en_US' ? 'Back to the top' : 'חזרה למעלה' }}</button>
                 </article>
