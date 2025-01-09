@@ -27,6 +27,12 @@ export default defineNuxtConfig({
       // icon
       link: [{ rel: 'icon', type: 'image/x-icon', href: '/site-icon.png' }],
     },
+
+  },
+
+  runtimeConfig: {
+    MAILJET_API_KEY: process.env.MAILJET_API_KEY,
+    MAILJET_API_SECRET: process.env.MAILJET_SECRET_KEY,
   },
 
   modules: ['@nuxt/content', 'nuxt-gtag'],

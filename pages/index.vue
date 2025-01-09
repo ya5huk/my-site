@@ -4,36 +4,20 @@
             everything that's ilan.
         </h1>
         <ul>
-            <li>
-                <h3>
-
-                    <nuxt-link to="/portfolio">portfolio.</nuxt-link>
-                </h3>
+            <li class="text-2xl">
+                <nuxt-link to="/portfolio">portfolio.</nuxt-link>
             </li>
-            <li>
-
-                <h3>
-
-                    <nuxt-link to="/about">about me.</nuxt-link>
-                </h3>
+            <li class="text-2xl">
+                <nuxt-link to="/about">about me.</nuxt-link>
             </li>
-            <li>
-                <h3>
-
-                    <nuxt-link to="/pictures">pictures!</nuxt-link>
-                </h3>
+            <li class="text-2xl">
+                <nuxt-link to="/pictures">pictures!</nuxt-link>
             </li>
-            <li>
-                <h3>
-
-                    <nuxt-link to="/blog">yapping.</nuxt-link>
-                </h3>
+            <li class="text-2xl">
+                <nuxt-link to="/blog">yapping.</nuxt-link>
             </li>
-            <li>
-                <h3>
-
-                    <nuxt-link to="/contact">let's connect.</nuxt-link>
-                </h3>
+            <li class="text-2xl">
+                <nuxt-link to="/contact">let's connect.</nuxt-link>
             </li>
         </ul>
     </div>

@@ -55,6 +55,12 @@ code {
     background-color: var(--bgcolor-light);
 }
 
+input {
+    @apply p-2 border border-black bg-transparent text-black placeholder-gray-700;
+    outline: none;
+    box-shadow: none;
+}
+
 h1 {
     @apply text-4xl;
 }

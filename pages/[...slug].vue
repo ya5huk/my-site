@@ -45,13 +45,19 @@
                     <img class="mx-auto w-full shadow shadow-gray-800 border border-black" :src="doc.image"
                         :alt="doc.title">
                     <ContentRenderer class="space-y-5" dir="auto" :value="doc" />
+
+                    <SubscribeToNewsletter v-if="doc.lang == 'he_IL'" :lang="doc.lang" />
+
                     <button class="btn w-full" @click="scrollToTop">
                         {{ doc.lang === 'en_US' ? 'Back to the top' : 'חזרה למעלה' }}</button>
                 </article>
             </template>
-            <template #empty>
-                <h1>Document not found</h1>
-                <p>The page you were trying to access wasn't found.</p>
+            <template #not-found>
+                <div class="p-10">
+
+                    <h1>Document not found</h1>
+                    <p>The page you were trying to access wasn't found.</p>
+                </div>
             </template>
         </ContentDoc>
 
