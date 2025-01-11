@@ -27,7 +27,7 @@ function getStaticEndpoints(): string[] {
     })
 }
 
-const BASE_URL = 'https://ilansonlineattic.com'
+const BASE_URL = 'https://www.ilansonlineattic.com'
 
 export default defineEventHandler(async (event) => {
   const sitemap = new SitemapStream({ hostname: BASE_URL })
