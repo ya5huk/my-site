@@ -66,7 +66,7 @@ const products: ProductSection[] = [
         title: "CalendarPlusAI",
         date: "October '24",
         directo: 'https://calendarplusai.com',
-        description: `A tool that upon entering couple of details, generating a custom calendar that fit your needs and availability. The calendar can be exported to your calendar app (Google Calendar, Apple Calendar, Outlook, etc.), PDF or you can receive a daily newsletter with your daily tasks and more.`,
+        description: `A tool that upon entering couple of details, generates a custom calendar that fits your needs and availability. The calendar can be exported to your calendar app (Google Calendar, Apple Calendar, Outlook, etc.), PDF or you can receive a daily newsletter with your daily tasks and more.`,
         toolsUsed: 'Nuxt 3 (Vue framework), Google Firebase, ChatGPT API, Tailwindcss, Python Flask. Deployed on Vercel.',
         image: 'https://www.calendarplusai.com/self-letter-long-image.png'
     },
@@ -74,7 +74,7 @@ const products: ProductSection[] = [
         title: "Visuathlete",
         date: "Jan '23 - Jul '24",
         directo: 'https://visuathlete.com/',
-        description: `My first and biggest project thus far. A website made to visualize and analyse all of the results of Israel's athletes, retired and active. The website stores data of more than 1400 athletes about their performances. There's a page for each with beautiful graphs and statistics. There is a home page feed, a leaderboard, articles, instagram profile for the site and more! The site still gets hundreds of visits monthly.`,
+        description: `My first and biggest project thus far. A website made to visualize and analyse all of the results of Israel's athletes, retired and active. The website stores data of more than 1400 athletes about their performances. There's a page for each signed user with beautiful graphs and statistics. It gets updated as they compete. There is a home page feed, a leaderboard, articles, instagram profile for the site and more! The site still gets hundreds of visits monthly.`,
         toolsUsed: 'Nuxt 3 (Vue framework) + Tailwindcss, Python Flask, Google Firstore. Deployed on DigitalOcean & Render',
         image: '/projects/visuathlete-showcase.png'
     },
