@@ -45,6 +45,10 @@ li {
    @apply text-lg md:text-2xl;
 }
 
+hr {
+    @apply bg-black;
+}
+
 pre {
     @apply text-lg p-4 my-5 rounded-xl overflow-x-auto ;
     background-color: var(--bgcolor-light);

@@ -72,8 +72,6 @@ main:deep(p) {
         @apply w-full my-5 rounded border border-black shadow shadow-gray-800;
     }
 
-
-
 }
 
 main:deep(ul) {
