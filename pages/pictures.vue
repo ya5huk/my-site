@@ -35,6 +35,12 @@ useSeoMeta({
 
 const imageStories: ImageStory[] = [
     {
+        title: 'Grass in Beersheba!',
+        description: `You see, a normal person would think I am pointing to the sunset. Well, it is just a sunset isn't it? The grass though...`,
+        image: '/me/grass-in-bs.JPG',
+        date: 'Feb 27th, 2025'
+    },
+    {
         title: 'Sideeying on the background of the Kineret.',
         description: `My friend Oded & I walked a track from the Kinneret (the village) to Nazareth while visiting the top of
             the mountaings: Mount Tavor, Mount Dvora and Mount Yona. I, having a non-optimal bag and Oded, walking
